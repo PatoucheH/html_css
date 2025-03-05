@@ -1,0 +1,167 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 90%;
+  margin: 0 auto;
+  font-size: 1.4rem;
+  background: radial-gradient(circle, #ffffff, #99cc9f);
+  background-image: url("./assets/paysage-eau.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  font-family: "Open Sans", serif;
+}
+
+p {
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #000;
+}
+
+a:visited {
+  color: darkred;
+}
+
+a:visited:hover {
+  color: #000;
+}
+
+blockquote {
+  width: 50%;
+  margin: 25px auto;
+  font-size: 1.6rem;
+  background-color: #d3d3d3;
+  border-left: 3px solid firebrick;
+  padding: 80px 30px;
+  font-style: italic;
+}
+
+.farmer {
+  border-left: 2px solid green;
+}
+
+.villagers {
+  border-left: 2px solid teal;
+}
+
+header h1 {
+  background: yellow;
+}
+
+.good,
+.bad {
+  text-transform: capitalize;
+}
+
+.good {
+  color: green;
+}
+
+.bad {
+  color: red;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-spacing: 2px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+th {
+  border: 1px solid black;
+  padding: 15px 25px;
+}
+
+td {
+  border: 1px solid black;
+  padding: 15px 25px;
+}
+
+th {
+  background: darkblue;
+  color: white;
+}
+
+table tr:nth-child(even) {
+  background: #f1f1f1;
+}
+
+table tr:nth-child(odd) {
+  background: #666;
+}
+
+ul li {
+  width: 25%;
+}
+
+ul li:first-child {
+  background-image: url("assets/assets/bien.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 25px 50px 20px 0;
+}
+ul li:nth-child(2) {
+  background-image: url("assets/assets/mal.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 25px 50px 20px 0;
+}
+
+ul li:nth-child(3) {
+  background-image: url("assets/assets/chat.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 25px 50px 20px 0;
+}
+
+ul li:nth-child(4) {
+  padding: 25px 50px 20px 0;
+}
+
+p:first-of-type {
+  font-weight: bold;
+}
+
+hr {
+  width: 1%;
+  border: 1px solid #000;
+  display: inline-block;
+}
+
+section:first-of-type {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 100px;
+}
+
+section:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+section p {
+  text-align: center;
+}
+
+.img-solo {
+  width: 100%;
+}
